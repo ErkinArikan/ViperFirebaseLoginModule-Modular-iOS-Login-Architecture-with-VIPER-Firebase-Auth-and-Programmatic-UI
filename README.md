@@ -28,3 +28,32 @@ A clean and scalable iOS login module built with VIPER architecture, Firebase Au
 - Decoupled from Presenter, aligned with SOLID principles  
 
 ---
+
+
+## 🏗️ Architecture Overview
+
+- **View** → UI layer built with UIKit + SnapKit  
+- **Presenter** → Business flow & user interaction handler  
+- **Interactor** → Executes login logic using AuthService  
+- **Router** → Manages navigation and external flows (Apple Sign-In)  
+- **Entity** → Represents models like `UserSession`  
+
+---
+
+## 🔧 Technologies
+| Tool / Framework | Purpose |
+|------------------|----------|
+| **Swift 5.9+** | Core language |
+| **VIPER** | Modular architecture |
+| **FirebaseAuth** | Authentication backend |
+| **SnapKit** | Auto Layout DSL |
+| **Then** | Cleaner UIKit initializers |
+| **CryptoKit** | Nonce generation for Apple Sign-In |
+| **AuthenticationServices** | Apple Sign-In UI |
+
+---
+
+## ⚙️ Setup
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_GITHUB_USERNAME/ViperFirebaseLoginModule.git
