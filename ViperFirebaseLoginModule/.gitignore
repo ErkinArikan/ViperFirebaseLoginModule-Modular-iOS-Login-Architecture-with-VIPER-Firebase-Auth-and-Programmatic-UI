@@ -1,0 +1,27 @@
+# Firebase config
+GoogleService-Info.plist
+**/GoogleService-Info*.plist
+
+# Apple push keys
+*.p8
+*.pem
+*.mobileprovision
+*.cer
+
+# Xcode build artifacts
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods (varsa)
+Pods/
+
+# Temporary files
+*.swp
+*.DS_Store
